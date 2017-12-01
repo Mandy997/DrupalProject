@@ -3,6 +3,7 @@
 # drupalCore
 /core
 /vendor
+/sites/default/files/php/twig
 
 # production
 
