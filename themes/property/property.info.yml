@@ -1,0 +1,21 @@
+name: property
+type: theme
+description: '山东省县域知识产权信息服务平台'
+version: VERSION
+core: 8.x
+
+libraries:
+  - property/global-styling
+
+
+regions:
+    logo: 标识
+    menu: 主菜单
+    banner: Banner 
+    service: 服务项目
+    assistance: 维权援助
+    edu: 远程教育
+    supervise: 监测平台
+    footer: 页脚
+
+

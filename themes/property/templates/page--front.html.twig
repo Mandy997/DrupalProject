@@ -1,0 +1,87 @@
+<body class="c-layout-header-fixed c-layout-header-mobile-fixed">
+    <!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
+    <!-- BEGIN: HEADER -->
+    <header class="c-layout-header c-layout-header-4 c-layout-header-default-mobile" data-minimize-offset="80">
+        <div class="c-navbar">
+            <div class="container">
+                <!-- BEGIN: BRAND -->
+                <div class="c-navbar-wrapper clearfix">
+                    <div class="c-brand c-pull-left">
+                        <div class="c-logo">
+                            {{ page.logo }}
+                        </div>
+
+                        <!--<a href="index.html" class="c-logo">
+                            <img src="{{base_path}}/themes/property/assets/base/img/layout/logos/logo-4.png" alt="山东省知识产权公共服务平台" class="c-desktop-logo">
+                            <img src="{{base_path}}/themes/property/assets/base/img/layout/logos/logo-1.png" alt="山东省知识产权公共服务平台" class="c-desktop-logo-inverse">
+                            <img src="{{base_path}}/themes/property/assets/base/img/layout/logos/logo-1.png" alt="山东省知识产权公共服务平台" class="c-mobile-logo"> 
+                            </a>-->
+                        <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
+                            <span class="c-line"></span>
+                            <span class="c-line"></span>
+                            <span class="c-line"></span>
+                        </button>
+                        <button class="c-topbar-toggler" type="button">
+                            <i class="fa fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                    <!-- END: BRAND -->
+                    <!-- BEGIN: MEGA MENU -->
+                    <!-- Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode -->
+                        {{ page.menu }}
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END: HEADER -->
+    <!-- BEGIN: PAGE CONTAINER -->
+    <div class="c-layout-page">
+        <!-- BEGIN: PAGE CONTENT -->
+        <!-- BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-4 -->
+        {{ page.banner }}
+        <!-- BEGIN: CONTENT/FEATURES/FEATURES-8 -->
+        <div class="c-content-box c-size-md c-bg-white" id="home2">
+            {{ page.service }}
+           
+        </div>
+        <!-- END: CONTENT/FEATURES/FEATURES-8 -->
+
+
+        <!-- 维权援助开始   c-content-box c-size-md c-bg-parallax  -->
+        <div id="home3" class="c-content-box c-size-md c-bg-parallax" style="background-image: url({{base_path}}/themes/property/assets/base/img/content/backgrounds/bg-85.jpg)">
+            {{ page.assistance }}
+           
+        </div>
+
+
+        <!--维权援助结束 -->
+
+        <!-- BEGIN: CONTENT/FEATURES/FEATURES-15-1 -->
+        <div id="home4" class="c-content-feature-15 c-bg-img-center" style="background-image: url({{base_path}}/themes/property/assets/base/img/content/backgrounds/banner_4.jpg)">
+            {{ page.edu }}
+            
+        </div>
+        <!-- END: CONTENT/FEATURES/FEATURES-15-1 -->
+
+        <div class="container-fluid">
+            {{ page.supervise }}
+            
+        </div>
+        <!-- END: CONTENT/STATS/COUNTER-2 -->
+        <!-- END: PAGE CONTENT -->
+    </div>
+    <!-- END: PAGE CONTAINER -->
+    <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
+    <a name="footer"></a>
+    <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
+        {{ page.footer }}
+        
+    </footer>
+    <!-- END: LAYOUT/FOOTERS/FOOTER-6 -->
+    <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+    <div class="c-layout-go2top">
+        <i class="icon-arrow-up"></i>
+    </div>
+</body>

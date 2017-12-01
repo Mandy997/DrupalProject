@@ -1,0 +1,348 @@
+html,
+body,.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+}
+
+@media (min-width: 992px) {
+    .c-layout-header .c-brand {
+        margin: 26px 0 37px 0;
+    }
+    .c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
+        margin: 8px 0 19px 0;
+    }
+    .c-layout-revo-slider-4 .form-horizontal {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .c-layout-header .c-brand {
+        margin: 6px 15px 7px 15px;
+    }
+    .c-layout-header .c-brand .c-hor-nav-toggler {
+        margin: 14px 15px;
+    }
+    .c-layout-revo-slider-4 .c-font-54 {
+        font-size: 22px;
+    }
+    .c-layout-revo-slider-4 .c-font-34 {
+        font-size: 18px;
+    }
+    .c-layout-revo-slider-4 .c-font-48 {
+        font-size: 22px;
+    }
+    .c-layout-revo-slider-4 .c-font-24 {
+        font-size: 18px;
+    }
+    .input-lg {
+        height: 32px;
+    }
+    .c-layout-revo-slider-4 .form-horizontal {
+        display: none;
+    }
+    .tp-banner .qr-code {
+        display: none;
+    }
+    .tparrows.circle {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+.c-layout-revo-slider-4 .c-main-title-square { 
+    background: rgba(0, 0, 0, 0.21);
+}
+
+.c-layout-revo-slider-4 .form-horizontal {
+    margin-top: 20px;
+}
+
+.tp-banner .qr-code {
+    margin-top: 10px;
+    width: 148px !important;
+    height: 148px !important;
+    float: left;
+}
+
+
+.c-layout-footer-6 .c-postfooter .c-corp {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.c-layout-footer-6 .c-postfooter .c-copyright {
+    float: right;
+    
+}
+
+.c-font-colors {
+    color: #838e9a !important;
+}
+
+.c-phone-img {
+    width: 364px;
+    height: 648px;
+}
+
+
+
+.c-content-feature-4.c-content-lefts.c-diagonals {
+    border-right: 50px solid;
+    border-top: 50px solid transparent;
+}
+
+.c-content-app-1 > .c-diagram{
+    margin-top: 60px;
+}
+.retract {
+    text-indent: 1em !important;
+}
+
+/* .c-content-box.c-size-lg {
+    padding: 0;
+} */
+
+.c-content-box.c-bg-parallax .shade {
+    padding: 120px 0;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.c-feature-15-desc {
+    text-indent: 2em;
+}
+
+
+.shade {
+    
+    background: rgba(0, 0, 0, 0.30);
+    width: 100%;
+}
+ 
+.buttTwo{
+    text-align: center;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 7%;
+    margin: auto;
+}
+
+
+.aboutOneHeight{
+    width: 100%;
+    height: 500px;
+}
+.aboutTwoFontCenter{
+   text-align: center;
+}
+.aboutTwoFontwight{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.fa-color-blue{
+    color: #32c5d2 !important;
+}
+
+.tp-banner-container.tp-fullscreen{
+    height: auto;
+}
+.c-margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+
+
+.c-postfooter .c-cols {
+    height: 38px;
+    line-height: 38px;
+}
+.c-layout-revo-slider-6 .customout { 
+    background: rgba(0, 0, 0, 0.21);
+    margin: 80px;
+    padding: 300px 400px;
+
+}
+
+.rev_slider .customout { 
+   padding: 260px 400px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+}
+.aboutfoot {
+    margin: 0;
+    padding-top: 60px !important;
+}
+
+.c-layout-footer-6{
+    padding-top: 0px;
+}
+
+.row .c-body > .c-section > h3{
+    font-size: 28px !important;
+}
+
+
+
+.aboutAddress{
+    min-width:470px;
+    max-width:480px;
+    margin-left: 8%;
+}
+.indexWeiquan{
+    min-width:490px;
+    max-width:500px;
+    margin-left: 2%;
+}
+
+
+
+.hand{
+    cursor:pointer;
+}
+.imgtop{
+    margin-top: 90px;
+}
+.imgheight{
+    height: 420px;
+}
+.pwidth{
+    width: 98%;
+}
+
+.indent{
+    text-indent:2em;
+}
+
+.indexSpacing{
+    letter-spacing:6px;
+}
+.c-icons{
+    width: 460px;
+    height: 200px;
+    margin-top: 18px;
+}
+
+.apple-content{
+    background: #fff;
+    padding: 0 0 0 38px;
+    width: 244px;
+    height: 66px;
+    line-height: 66px;
+    font-size: 30px;
+    border-radius: 3px;
+    color: #494751;
+    display: inline-block;
+    margin: 0 0 0 22px;
+}
+
+.android-content{
+    background: #fff;
+    padding: 0 0 0 38px;
+    width: 244px;
+    height: 66px;
+    line-height: 66px;
+    font-size: 30px;
+    border-radius: 3px;
+    color: #494751;
+    display: inline-block;
+    margin: 16px 0 0 22px;
+}
+
+.apple{
+    width: 29px !important;
+    height: 29px !important;
+    margin: 0 10px 8px 0 !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.android{
+    width: 29px !important;
+    height: 29px !important;
+    margin: 0 10px 8px 0 !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.index-margin{
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+
+.chart-height-100{
+    height: 100%;
+}
+
+.chart-height-30{
+    height: 30vh;
+}
+
+.chart-margin{
+    margin-bottom:20vh; 
+    margin-top:10vh;
+}
+
+.chart-title{
+    margin-top:10vh;
+}
+
+.chart-map{
+    height:70vh; 
+}
+
+
+.chart-shandong{
+    width:100%;
+    height: 70vh;
+}
+
+.chart-margin-left{
+    margin-left:10%;
+    margin-right:-25%;
+    z-index: 10;
+}
+
+.chart-margin-right{
+    margin-right:10%;
+    margin-left:-25%;
+    z-index: 10;
+}
+
+.tp-bullet{
+    top: 20px !important;
+}
+.chart-margin-top{ 
+    margin-top: 10vh;
+}
+.c-desktop-logo{
+    width: 340px;
+}
+.c-logo-img{
+    position: relative;
+    float:left
+}
+.c-logo-img >img{
+    height: 55px;
+}
+.c-logo-text{
+    position:relative;
+    float:right;
+    
+}
+.c-logo-text-colorone{
+    color: #3a3f45;
+}
+.c-logo-text-colortwo{
+    color: #69727c !important;
+}
+.c-logo-text-colorthree{
+    color: #eeeeee;
+}
+.c-logo-text >p{
+    text-align: center;
+    margin-top: 15px;
+}
