@@ -8,5 +8,5 @@
 # production
 
 
-# misc
-
+#setting 
+/sites/default/settings.local.php
