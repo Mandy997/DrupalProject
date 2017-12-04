@@ -1,9 +1,10 @@
 name: property
 type: theme
 description: '山东省县域知识产权信息服务平台'
-version: VERSION
 core: 8.x
 
+version: 8.x-1.0
+base theme: stable
 libraries:
   - property/global-styling
 

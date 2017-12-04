@@ -1,4 +1,5 @@
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
+    {{ kint() }}
     <!-- BEGIN: LAYOUT/HEADERS/HEADER-1 -->
     <!-- BEGIN: HEADER -->
     <header class="c-layout-header c-layout-header-4 c-layout-header-default-mobile" data-minimize-offset="80">
@@ -29,8 +30,7 @@
                     <!-- BEGIN: MEGA MENU -->
                     <!-- Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode -->
                         {{ page.menu }}
-                    
-                   
+                         
                 </div>
             </div>
         </div>
@@ -75,10 +75,7 @@
     <!-- END: PAGE CONTAINER -->
     <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
     <a name="footer"></a>
-    <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
-        {{ page.footer }}
-        
-    </footer>
+        {% include '@property/footer.html.twig' %}
     <!-- END: LAYOUT/FOOTERS/FOOTER-6 -->
     <!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
     <div class="c-layout-go2top">
